@@ -4,7 +4,7 @@ from mysql.connector import Error
 def preparar_libreria():
     try:
         conexion = mysql.connector.connect(
-            host='localhost', user='root', password='', database='libreria_sena'
+            host='localhost', user='root', password='', database='libreria_universitaria'
         )
         cursor = conexion.cursor()
 

@@ -2,7 +2,7 @@ import mysql.connector
 from mysql.connector import Error
 
 CONFIG = {
-    'host': 'localhost', 'user': 'root', 'password': '', 'database': 'libreria_sena'
+    'host': 'localhost', 'user': 'root', 'password': '', 'database': 'libreria_universitaria'
 }
 
 def registrar_venta():
@@ -69,7 +69,7 @@ def menu():
         if op == '1': registrar_venta()
         elif op == '2': reporte_mensual()
         elif op == '3': 
-            print('¡Éxitos en tu entrega del Sena!'); break
+            print('¡Éxitos en tu entrega de librería universitaria!'); break
         else: print('Opción inválida.')
 
 if __name__ == '__main__':
